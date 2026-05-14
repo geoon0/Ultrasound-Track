@@ -1,0 +1,59 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PlatformIO
+firmware/.pio/
+firmware/.piolibdeps/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+.jupyter/
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyTorch Model Weights & Data
+ai_model/weights/*.pth
+ai_model/weights/*.pt
+ai_model/weights/*.ckpt
+ai_model/data/raw/*
+ai_model/data/processed/*
+!ai_model/data/.gitkeep
+!ai_model/weights/.gitkeep
+
+# Log files
+*.log
