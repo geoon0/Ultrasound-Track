@@ -7,53 +7,23 @@
 ehthumbs.db
 Thumbs.db
 
-# PlatformIO
-firmware/.pio/
-firmware/.piolibdeps/
-
-# Python / Jupyter
+# Python / 가상환경
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-.env
 .venv
 venv/
 ENV/
-env.bak/
-venv.bak/
-.jupyter/
-.ipynb_checkpoints/
+env/
+*.egg-info/
 
 # VS Code
 .vscode/
 *.code-workspace
 
-# PyTorch Model Weights & Data
-ai_model/weights/*.pth
-ai_model/weights/*.pt
-ai_model/weights/*.ckpt
-ai_model/data/raw/*
-ai_model/data/processed/*
-!ai_model/data/.gitkeep
-!ai_model/weights/.gitkeep
+# 실행 중 생성되는 디버그 캡처 (run_realtime_visual.py, DEBUG_SAVE=True)
+debug_captures_auto/
+debug_captures*/
 
 # Log files
 *.log
